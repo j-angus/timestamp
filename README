@@ -1,0 +1,14 @@
+Wednesday, 2011-05-04
+Idea for a c programming project: timestamp
+
+timestamp appends the current time to the end of any files supplied as 
+arguments on the command line.
+
+eg. timestamp file1 file2 file3
+
+file1_YYYYmmdd_HHMMSS_ms
+file2_YYYYmmdd_HHMMSS_ms
+file3_YYYYmmdd_HHMMSS_ms
+
+where ms = milli seconds, 000 - 999
+
